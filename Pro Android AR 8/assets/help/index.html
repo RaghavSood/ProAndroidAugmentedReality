@@ -1,0 +1,58 @@
+<html>
+		<head>
+		<style type="text/css">
+		h1 {font-size:20px;}
+		h2 {font-size:16px;}
+		</style>
+		</head>
+        <body>
+			<p>This is the 3rd example application from the book Pro Android Augmented Reality by Raghav Sood, published by Apress. It projects models on a marker.
+			You may either use the internal models or supply your own models in the <a href="http://en.wikipedia.org/wiki/Obj">wavefront obj format.</a></p>
+			<ol>
+				<li><a href="#firststeps">First steps</a></li>
+				<li><a href="#screenshot">Taking a screenshot</a></li>
+				<li><a href="#transforming">Transforming the model</a></li>
+				<li><a href="#custommodels">Custom models</a></li>
+			</ol>
+			<h2><a name="firststeps">First steps</a></h2>
+			<ul>
+				<li>First print out the marker, upon which the models will be projected. The marker is located in the assets folder of the project source.</li>
+			</ul>
+			<ul>
+				<li>Select one of the internal models.</li>
+				<li>The app will start loading the model.</li>
+				<li>After it has finished, you will see a live video stream from the camera.</li>
+				<li>Now point the camera to the marker, you should see the model you selected.</li>
+			</ul>
+			<h2><a name="screenshot">Taking a screenshot</a></h2>
+			<ul>
+				<li>First press the menu key.</li>
+				<li>Next press the button "Take a screenshot".</li>
+				<li>The application will now process the image. It will notfiy you, when it's finished.</li>
+				<li>The screenshot you just took can be found in the root folder of your sd-card. It will be named something like <i>AndARScreenshot1234.png</i></li>
+			</ul>
+			<h2><a name="transforming">Transforming the model</a></h2>
+			<ul>
+				<li>Press the menu key and select the desired transformation mode. You may either scale, rotate or translate the model.</li>
+				<li>Scale: Slide you finger up and down the touch screen. This will enlarge and shorten the model, respectively.</li>
+				<li>Rotate: Slide your finger horizontally and vertically, this will rotate your model correspondingly. </li>
+				<li>Translate: Slide your finger horizontally and vertically, this will translate your model correspondingly. </li>
+			</ul>
+			<h2><a name="custommodels">Custom models</a></h2>	
+			The application is capable of showing custom wavefront obj models. Most 3d modelling software out there can export this format(e.g. 3ds max, Blender). 
+			There are currently some restrictions to the models:
+			<ul>
+				<li>Every face must have normals specified</li> 
+				<li>The object must be triangulated, this means exactly 3 vertices per face.</li> 
+				<li>Basic materials and textures are supported.</li> 
+			</ul>
+			E.g. when exporting a model from blender make sure you check <i>Normals</i> and <i>Triangulate</i>.
+			<h2>Attribution</h2>
+			<ul>
+				<li>This app contains code developed by the Android Open Source Project, released under the Apache License.</li>
+				<li>This app contains models from <a href="http://resources.blogscopia.com/modelos_en.html">resources.blogscopia.com</a> released under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Unported license</a>, see also: <a href="http://www.scopia.es">www.scopia.es</a>.</li>
+				<li>This product includes software developed by the <a href="http://mij.oltrelinux.com/devel/simclist/">SimCList  project</a>.</li>
+				<li>This project includes code from the <a href="http://code.google.com/p/andar/">AndAR</a> project.</li>
+			</ul>
+			</body>
+</html>

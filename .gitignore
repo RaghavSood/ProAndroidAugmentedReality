@@ -17,3 +17,6 @@ local.properties
 
 #OS specific files
 .DS_Store
+
+#Other version control files
+.svn

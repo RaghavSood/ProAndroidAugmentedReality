@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ProAndroidAR3Activity!</string>
+    <string name="app_name">Pro Android AR 3 Widget Overlay</string>
+    <string name="xAxis">X Axis:</string>
+    <string name="yAxis">Y Axis:</string>
+	<string name="zAxis">Z Axis:</string>
+	<string name="heading">Heading:</string>
+	<string name="pitch">Pitch:</string>
+	<string name="roll">Roll:</string>
+	<string name="altitude">Altitude:</string>
+	<string name="longitude">Longitude:</string>
+	<string name="latitude">Latitude:</string>
+	<string name="empty"></string>
+</resources>

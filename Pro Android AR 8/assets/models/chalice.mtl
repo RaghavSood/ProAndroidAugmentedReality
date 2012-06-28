@@ -1,0 +1,14 @@
+# Blender MTL File: 'chalice.blend'
+# Material Count: 1
+newmtl Copa_Copa.png
+Ns 35.294118
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.648517 0.648517 0.648517
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd chalice.blend/Copa.png
+map_Bump chalice.blend/Copa_N.jpg
+
+

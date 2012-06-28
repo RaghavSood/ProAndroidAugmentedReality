@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ASimpleAppUsingARActivity!</string>
+    <string name="app_name">A Slightly More Complex AR App</string>
+	<string name="xAxis">X Axis:</string>
+    <string name="yAxis">Y Axis:</string>
+	<string name="zAxis">Z Axis:</string>
+	<string name="heading">Heading:</string>
+	<string name="pitch">Pitch:</string>
+	<string name="roll">Roll:</string>
+	<string name="altitude">Altitude:</string>
+	<string name="longitude">Longitude:</string>
+	<string name="latitude">Latitude:</string>
+	<string name="empty"></string>
+	<string name="help">This is the example app from Chapter 7 of Pro Android Augmented Reality. This app outlines some of the basic features of Augmented Reality and how to implement them in real world applications. This app includes a basic system that can be used for navigation. To make use of this system, put the app in the map mode by holding the device flat. Then enable \"Enable tap to set\" from the menu option after you have located the place you want to go to. After that, switch back to camera mode. If a reliable GPS fix is available, you will be given your current bearing to that location. The bearing will be updated every time a new location fix is received.</string>
+	<string name="helpLabel">Help</string>
+	<string name="go">Go</string>
+	<string name="bearingLabel">Bearing:</string>
+	<string name="distanceLabel">Distance:</string>
+</resources>

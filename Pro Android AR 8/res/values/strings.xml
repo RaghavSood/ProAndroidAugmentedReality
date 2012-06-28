@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Many Models Test</string>
+<string name="select_model_file">Select a model file:</string>
+<string name="android_markt_not_avail">Android market is not available, you need install to OI File manager manually.</string>
+<string name="pickfile_intent_required">You need to install the OI File Manager in order to use this application.</string>
+<string name="file_doesnt_exist">This file doesn\'t exist!</string>
+<string name="unknown_file_type">Unknown file type!</string>
+<string name="rotate">rotate</string>
+<string name="translate">translate</string>
+<string name="scale">scale</string>
+
+
+
+
+<string name="loading">Loading. Please wait...</string>
+<string name="app_description">AndAR Model Viewer allows you to view wavefront obj models on an Augmented Reality marker.</string>
+<string name="take_screenshot">Take a screenshot</string><string name="screenshotsaved">Screenshot saved!</string><string name="screenshotfailed">Failed to save screenshot: </string>
+<string name="choose_custom_model">Select a model file</string>
+<string name="instructions">Instructions</string>
+<string name="wrong_file">Select an obj model file. (.obj)</string>
+<string name="choose_a_model">Choose a model:</string>
+<string name="help">Help:</string>
+<string name="custom_model">Custom model:</string>
+<string name="help_file">index.html</string>
+</resources>

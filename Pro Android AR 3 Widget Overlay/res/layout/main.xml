@@ -1,0 +1,165 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	<SurfaceView
+		android:id="@+id/cameraPreview"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+
+	<TextView
+	    android:id="@+id/xAxisLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginLeft="18dp"
+	    android:layout_marginTop="15dp"
+	    android:text="@string/xAxis" />
+
+	<TextView
+	    android:id="@+id/yAxisLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/xAxisLabel"
+	    android:layout_below="@+id/xAxisLabel"
+	    android:text="@string/yAxis" />
+
+	<TextView
+	    android:id="@+id/zAxisLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/yAxisLabel"
+	    android:layout_below="@+id/yAxisLabel"
+	    android:text="@string/zAxis" />
+
+	<TextView
+	    android:id="@+id/headingLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/zAxisLabel"
+	    android:layout_below="@+id/zAxisLabel"
+	    android:layout_marginTop="19dp"
+	    android:text="@string/heading" />
+
+	<TextView
+	    android:id="@+id/pitchLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/headingLabel"
+	    android:layout_below="@+id/headingLabel"
+	    android:text="@string/pitch" />
+
+	<TextView
+	    android:id="@+id/rollLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/pitchLabel"
+	    android:layout_below="@+id/pitchLabel"
+	    android:text="@string/roll" />
+
+	<TextView
+	    android:id="@+id/latitudeLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/rollLabel"
+	    android:layout_below="@+id/rollLabel"
+	    android:layout_marginTop="34dp"
+	    android:text="@string/latitude" />
+
+	<TextView
+	    android:id="@+id/longitudeLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/latitudeLabel"
+	    android:layout_below="@+id/latitudeLabel"
+	    android:text="@string/longitude" />
+
+	<TextView
+	    android:id="@+id/altitudeLabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/longitudeLabel"
+	    android:layout_below="@+id/longitudeLabel"
+	    android:text="@string/altitude" />
+
+	<TextView
+	    android:id="@+id/xAxisValue"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/xAxisLabel"
+	    android:layout_marginLeft="56dp"
+	    android:layout_toRightOf="@+id/longitudeLabel"
+	    android:text="@string/empty" />
+
+	<TextView
+	    android:id="@+id/yAxisValue"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/yAxisLabel"
+	    android:layout_alignBottom="@+id/yAxisLabel"
+	    android:layout_alignLeft="@+id/xAxisValue"
+	    android:text="@string/empty" />
+
+	<TextView
+	    android:id="@+id/zAxisValue"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/headingLabel"
+	    android:layout_alignLeft="@+id/yAxisValue"
+	    android:text="@string/empty" />
+
+	<TextView
+	    android:id="@+id/headingValue"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/headingLabel"
+	    android:layout_alignBottom="@+id/headingLabel"
+	    android:layout_alignLeft="@+id/zAxisValue"
+	    android:text="@string/empty" />
+
+	<TextView
+	    android:id="@+id/pitchValue"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/pitchLabel"
+	    android:layout_alignBottom="@+id/pitchLabel"
+	    android:layout_alignLeft="@+id/headingValue"
+	    android:text="@string/empty" />
+
+	<TextView
+	    android:id="@+id/rollValue"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/latitudeLabel"
+	    android:layout_alignLeft="@+id/pitchValue"
+	    android:text="@string/empty" />
+
+	<TextView
+	    android:id="@+id/latitudeValue"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/latitudeLabel"
+	    android:layout_alignLeft="@+id/rollValue"
+	    android:text="@string/empty" />
+
+	<TextView
+	    android:id="@+id/longitudeValue"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/longitudeLabel"
+	    android:layout_alignBottom="@+id/longitudeLabel"
+	    android:layout_alignLeft="@+id/latitudeValue"
+	    android:text="@string/empty" />
+
+	<TextView
+	    android:id="@+id/altitudeValue"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/altitudeLabel"
+	    android:layout_alignBottom="@+id/altitudeLabel"
+	    android:layout_alignLeft="@+id/longitudeValue"
+	    android:text="@string/empty" />
+
+</RelativeLayout>
